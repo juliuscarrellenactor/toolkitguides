@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Enactor Dev Tools',
+  tagline: 'For fast-moving Enactor enthusiasts',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/Enactor-Logo.png',
       navbar: {
-        title: 'Dev Tools',
+        // title:none,
         logo: {
           alt: 'My Site Logo',
           src: 'img/Enactor-Logo.png',
@@ -74,12 +74,19 @@ const config = {
             type: 'doc',
             docId: 'home',
             position: 'left',
-            label: 'Guides',
+            label: 'Toolkit',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'React UI', position: 'left'},
+      
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Developer Forum',
+            position: 'right',
+          },
+
+          {
+            href: 'https://insights.enactor.co',
+            label: 'Insights Portal',
             position: 'right',
           },
         ],
@@ -127,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Enactor`,
       },
       prism: {
         theme: lightCodeTheme,
