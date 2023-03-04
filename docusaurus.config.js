@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/Enactor-Logo.png',
       navbar: {
-        title: 'Toolkit Book',
+        title: 'Dev Tools',
         logo: {
           alt: 'My Site Logo',
           src: 'img/Enactor-Logo.png',
@@ -72,9 +72,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'home',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guides',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/home',
               },
             ],
           },
