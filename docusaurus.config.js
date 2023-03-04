@@ -76,7 +76,14 @@ const config = {
             position: 'left',
             label: 'Toolkit',
           },
-          {to: '/blog', label: 'React UI', position: 'left'},
+
+          {
+            type: 'doc',
+            docId: 'react',
+            position: 'left',
+            label: 'React UI',
+          },
+         
       
           {
             href: 'https://github.com/facebook/docusaurus',
