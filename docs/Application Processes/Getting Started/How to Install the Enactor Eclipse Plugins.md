@@ -10,9 +10,7 @@ Start Eclipse and from the main menu bar select *Help – Install New Software�
 In the “Work with” input box key in the location of the Enactor Update Site, which is: <https://dev.enactor.co.uk/tools/current>.
 
 
-![A screenshot of a social media post
-
-Description automatically generated](Aspose.Words.652cac3e-57f9-4efd-a8b5-b2c1f3333ce1.009.png)
+![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.652cac3e-57f9-4efd-a8b5-b2c1f3333ce1.009.png)
 
 Select all the check boxes and press *Next*. You will then be asked to accept the licence terms and then after installation will be prompted to re-boot Eclipse.
 
@@ -79,8 +77,6 @@ The main elements are:
 1. A wireframe page definition for the prompt that displays called *TestSwingApplicationPrompt.xml*.
 
 1. A messages file for locale based translations called *TestSwingApplicationMessages.xml*.
-
-
 
 This is the Application Process:
 

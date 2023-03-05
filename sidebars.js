@@ -31,7 +31,8 @@ const sidebars = {
 
   // },
 
-  toolkitSidebar :  [ {
+  toolkitSidebar :  [ 
+    {
     type: 'category',
     label: 'Getting Starting',
     collapsible: true,
@@ -50,7 +51,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Getting Started/About Application Processes', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
+        items: ['Application Processes/Basics/About Application Processes', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
       },
       {
         type: 'category',
@@ -65,7 +66,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Database',
-        items: ['Application Processes/Basics/Loading and Saving Entities', 'Application Processes/Basics/Managing Database Transactions']
+        items: ['Application Processes/Entities & Persistence/Loading and Saving Entities', 'Application Processes/Entities & Persistence/Managing Database Transactions']
       }
     ],
   },
