@@ -36,7 +36,7 @@ const sidebars = {
     type: 'category',
     label: 'Getting Starting',
     collapsible: true,
-    collapsed: true,
+    collapsed: false,
     items: [
       'Application Processes/Getting Started/How to Install the Enactor Eclipse Plugins', 
     ],
@@ -46,7 +46,7 @@ const sidebars = {
     type: 'category',
     label: 'Application Processes',
     collapsible: true,
-    collapsed: true,
+    collapsed: false,
     items: [
       {
         type: 'category',
@@ -66,7 +66,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Database',
-        items: ['Application Processes/Entities & Persistence/Loading and Saving Entities', 'Application Processes/Entities & Persistence/Managing Database Transactions']
+        items: ['Application Processes/Entitites & Persistence/Loading and Saving Entities', 'Application Processes/Entitites & Persistence/Managing Database Transactions']
       }
     ],
   },
@@ -74,7 +74,7 @@ const sidebars = {
     type: 'category',
     label: 'Business Processes',
     collapsible: true,
-    collapsed: true,
+    collapsed: false,
     items: [
       {
         type: 'category',
