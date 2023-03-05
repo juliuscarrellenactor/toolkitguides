@@ -72,7 +72,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'home',
+            docId: 'toolkit',
             position: 'left',
             label: 'Toolkit',
           },
@@ -84,7 +84,6 @@ const config = {
             label: 'React UI',
           },
          
-      
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'Developer Forum',

@@ -1,13 +1,11 @@
 ﻿---
-sidebar_position: 1
+# sidebar_position: 1
 ---
 # Create, Call and Deploy Application Processes
 ## Introduction
-This document continues from “How to add Actions to Application Processes” and describes how to create new Application Processes and then how to call them and arrange for them 
+This document continues from “How to add Actions to Application Processes” and describes how to create new Application Processes and then how to call them and arrange for them to be deployed by the Enactor runtime.
 
-to be deployed by the Enactor runtime.
-
-## **What are Application Processes ?**
+## What are Application Processes ?
 Application Processes are a visual representation of the classic execution flow diagrams that all designers and developers produce from time-to-time when thinking about how applications (and services) should operate and how the components of those applications should fit together. Behind the visual representation of Application Processes are XML files that determine the flow of execution between small code modules (micro-services) within the context of the different states of what is being executed.
 
 We created this visual representation and associated designer as an answer to the growing volume and complexity of “plumbing code” that we found ourselves producing as our software components became smaller and our applications (and services) became larger. We postulated that separating out the code-centric environment for component creation from the “plumbing” environment of code-connection and state transition would encourage re-use and lead to more understandable and robust solutions. No longer would large code bases be “big black boxes” – you would be able to visually look inside a complex application (or service) by looking at it diagram.

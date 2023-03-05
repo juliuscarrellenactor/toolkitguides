@@ -1,6 +1,9 @@
 ---
 sidebar_position: 3
+id: looping-state
+displayed_sidebar: toolkitSidebar
 ---
+
 
 # Looping and Iteration States
 ## Looping State 

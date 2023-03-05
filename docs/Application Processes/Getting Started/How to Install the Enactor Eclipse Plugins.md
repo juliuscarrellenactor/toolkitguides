@@ -1,8 +1,4 @@
-﻿---
-sidebar_position: 1
----
-
-# Installing the Eclipse Plugins
+﻿# Installing the Eclipse Plugins
 The Enactor tools are supplied as plugins to the Eclipse IDE. The easiest way to install them is from the Update Site which is located at: <https://dev.enactor.co.uk/tools/current>.
 
 ## **Installing Eclipse**
