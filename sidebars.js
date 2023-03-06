@@ -37,7 +37,7 @@ const sidebars = {
     label: 'Getting Starting',
     collapsible: true,
     collapsed: false,
-    items: [
+    items: [ 'Application Processes/Getting Started/What is the Enactor Toolkit',
       'Application Processes/Getting Started/How to Install the Enactor Eclipse Plugins', 
     ],
   }, 
@@ -51,7 +51,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Basics/About Application Processes', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
+        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
       },
       {
         type: 'category',

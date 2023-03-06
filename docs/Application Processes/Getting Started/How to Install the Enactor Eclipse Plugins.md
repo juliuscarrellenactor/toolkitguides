@@ -1,4 +1,4 @@
-﻿# Installing the Eclipse Plugins
+﻿# **Installing the Eclipse Plugins**
 The Enactor tools are supplied as plugins to the Eclipse IDE. The easiest way to install them is from the Update Site which is located at: <https://dev.enactor.co.uk/tools/current>.
 
 ## **Installing Eclipse**
@@ -36,10 +36,7 @@ In order to activate the plugins you will need to configure a *settings.xml* fil
 
 ![A screenshot of a cell phone Description automatically generated](./Images/Aspose.Words.652cac3e-57f9-4efd-a8b5-b2c1f3333ce1.012.png)
 
-
 Here is an example settings.xml file:
-
-
 
 In the above file note the changes that you will need to make:
 
@@ -69,14 +66,13 @@ You should see the project created in Project Explorer and if you expand the *sr
 
 ### Application Contents
 The main elements are:
-
 1. A java application class called *TestSwingApplication.java*. This launches the main application process.
 
-1. An Application Process called *TestSwingApplicationStartupProcess.xml*.
+2. An Application Process called *TestSwingApplicationStartupProcess.xml*.
 
-1. A wireframe page definition for the prompt that displays called *TestSwingApplicationPrompt.xml*.
+3. A wireframe page definition for the prompt that displays called *TestSwingApplicationPrompt.xml*.
 
-1. A messages file for locale based translations called *TestSwingApplicationMessages.xml*.
+4. A messages file for locale based translations called *TestSwingApplicationMessages.xml*.
 
 This is the Application Process:
 
