@@ -51,7 +51,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
+        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/The Process Design Editor', 'Application Processes/Basics/States','Application Processes/Basics/ Create, Call and Deploy Application Processes']
       },
       {
         type: 'category',

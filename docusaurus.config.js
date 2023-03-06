@@ -69,7 +69,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/Enactor-Logo_custom.png',
           srcDark: 'img/Enactor-Logo.png',
-          href: 'https://docusaurus.io/',
+          href: 'http://localhost:3000/docs/toolkit',
           target: '_self',
           width: 125,
           height: 200,
