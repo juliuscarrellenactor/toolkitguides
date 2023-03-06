@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Enactor Dev Tools',
-  tagline: 'For fast-moving Enactor enthusiasts',
-  favicon: 'img/favicon.ico',
+  tagline: 'For fast-moving developers in the Enactor Community',
+  favicon: 'img/devtoolsfavicon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -67,7 +67,14 @@ const config = {
         // title:none,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Enactor-Logo.png',
+          src: 'img/Enactor-Logo_custom.png',
+          srcDark: 'img/Enactor-Logo.png',
+          href: 'https://docusaurus.io/',
+          target: '_self',
+          width: 125,
+          height: 200,
+        className: 'custom-navbar-logo-class',
+        
         },
         items: [
           {

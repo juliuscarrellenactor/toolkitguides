@@ -413,4 +413,3 @@ This is initially done by highlighting a state and using right-click:
 
 The most recently used association becomes the default.
 
-# Document History

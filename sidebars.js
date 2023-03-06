@@ -31,7 +31,7 @@ const sidebars = {
 
   // },
 
-  toolkitSidebar :  [ 
+  toolkitSidebar :  [ 'toolkit',
     {
     type: 'category',
     label: 'Getting Starting',
