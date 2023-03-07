@@ -4,7 +4,7 @@ The Process Design Editor is a tool for the maintenance of Application Process D
 
 To edit the Application Process created by the Swing Application Wizard first locate and select it in the Project Explorer. To invoke the Process Design Editor, either double-mouse-click on the Process Icon in the Package Explorer or use the Right-mouse menu and select the options **Open With>Process Editor** as shown below:
 
-<!-- ![Graphical user interface, text, application, email Description automatically generated](./Images/Aspose.Words.00e483ed-30fe-4294-8193-0d848d6dd0d2.001.png) -->
+![Graphical user interface, text, application, email Description automatically generated](./Images/Aspose.Words.00e483ed-30fe-4294-8193-0d848d6dd0d2.001.png)
 
 The Visual Process Design Window opens to display the Application Process.
 

@@ -1,5 +1,4 @@
-﻿
-# Create, Call and Deploy Application Processes
+﻿# Create, Call and Deploy Application Processes
 ## **Introduction**
 This document continues from “How to add Actions to Application Processes” and describes how to create new Application Processes and then how to call them and arrange for them to be deployed by the Enactor runtime.
 
@@ -108,8 +107,6 @@ If you find that double clicking on a process or performing some action on a pro
 Press the *Configure Mapping* button, or go to the top menu bar and select *Eclipse-Preferences*  and then select *Processes* and press the *Add Mapping* button. The system identifies where resources are located by the first part of the identifier. In the example below we are telling the system that processes that have the first part of their ID as “HowTo” can be found in the project called “HowToGuides” and the folder where the processes are located is: *src/META\_INF/deployments/Process/How To*.
 
 ![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.871f0dcd-9a6a-4e25-9d2f-8a9a2c3daccd.022.png)
-
-
 
 You should end up with something like the following:
 

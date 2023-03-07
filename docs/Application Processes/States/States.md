@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # States
 
-## What are States ?
+## **What are States?**
 
 States are generally points in application processes where execution
 pauses and the process waits for events. Events could be user input,
@@ -99,7 +99,7 @@ the Class Name property of the state's properties. Custom States need to
 implement specific interfaces such as *IUIState* and *IUIPromptState* in
 order to be able to be used by the framework.
 
-## State Inputs, Outputs and State data
+## **State Inputs, Outputs and State data**
 
 All states have input, output and state data. They are defined in a
 similar way to process and action data and operate as described below.
@@ -162,7 +162,7 @@ then an error is shown.
 ![A screenshot of a cell phone Description automaticallygenerated](./Images/image6.png){width="5.46875in"
 height="3.4270833333333335in"}
 
-## Basic State Properties
+## **Basic State Properties**
 
 Selecting a state with a single mouse click will show some information
 about it in the Eclipse Properties pane. If this is not displaying then
@@ -399,7 +399,7 @@ Both message states and error states raise a *WindowClosed* event as
 If an error state has an input defined of type *Exception* then it will
 include the stack trace of the exception in the message.
 
-## Associating User Interface files and designers with States
+## **Associating User Interface files and designers with States**
 
 When working with states in application processes it is possible to
 associate user interfaces designs and files with states. Once this is

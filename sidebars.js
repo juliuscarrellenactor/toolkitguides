@@ -34,7 +34,7 @@ const sidebars = {
   toolkitSidebar :  [ 'toolkit',
     {
     type: 'category',
-    label: 'Getting Starting',
+    label: 'Getting Started',
     collapsible: true,
     collapsed: false,
     items: [ 'Application Processes/Getting Started/What is the Enactor Toolkit',
@@ -51,15 +51,21 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/The Process Design Editor','Application Processes/Basics/Process Flow', 'Application Processes/Basics/Creating a New Application Process','Application Processes/Basics/ Create, Call and Deploy Application Processes', 'Application Processes/Basics/States',  
+        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/The Process Design Editor','Application Processes/Basics/Process Flow', 'Application Processes/Basics/Creating a New Application Process','Application Processes/Basics/ Create, Call and Deploy Application Processes', 'Application Processes/Basics/Data Mappings',  
         {type: 'category',
         label: 'Tools',
-        items: []},]
-      },
+        items: ['Application Processes/Basics/Tools/The Refactor Tool']
+      },] },
       {
         type: 'category',
         label: 'Actions',
         items: ['Application Processes/Basics/Actions'],
+      }, 
+
+      {
+        type: 'category',
+        label: 'States',
+        items: ['Application Processes/States/States'],
       }, 
       {
         type: 'category',
@@ -82,17 +88,28 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Basics/States'],
+        items: ['Application Processes/States/States'],
       },
       {
         type: 'category',
         label: 'Actions',
-        items: ['Application Processes/Basics/States'],
+        items: ['Application Processes/States/States'],
       },
     ],
+  },
+
+  {
+    type: 'category',
+    label: 'Resource Library',
+    collapsible: true,
+    collapsed: false,
+    items: [
+      'Application Processes/Resource Library/Resource Library'],
   }
   
 ] ,
+
+
 
 reactSidebar :  [ {
   type: 'category',
@@ -112,13 +129,13 @@ reactSidebar :  [ {
     {
       type: 'category',
       label: 'Basics',
-      items: ['React UI/React Development/React Fundamentals'],
+      items: ['React UI/React Development/React Fundamentals'], 
     },
   ],
 }
 
 
-] 
+]  }
 
 
   // apiSidebar: [', 'doc4'],
@@ -136,6 +153,6 @@ reactSidebar :  [ {
   ],
    */
 
-};
+
 
 module.exports = sidebars;
