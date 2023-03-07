@@ -3,6 +3,22 @@ sidebar_position: 2
 ---
 # Actions
 ## **Introduction**
+
+```xml title="test xml"
+
+<core:packageProcess>
+
+<core:processId>HelloEnactor/**ModifyMessage**</core:processId>
+<core:name>**Modify Message**</core:name>
+
+<core:version>1.0</core:version>
+
+</core:packageProcess>
+
+```
+
+
+
 This document is a beginners’ introduction to Actions and Application Processes. In the Enactor system an action is a discrete function that does something. Actions are written in the Java programming language and are linked together into sequences which we call “Application Processes”. A design tool called the “Application Process Designer” is what is used to link actions and other types of design items together, such as screens, in order to create applications.
 
 Essentially an action is a stateless micro-service that takes inputs and outputs and produces discrete value outcomes. They can also produce exceptions – which is what happens if something goes wrong inside of the code of an action. The code inside an action is always the same basic shape. Actions are implemented as Java classes and a single method called *execute(inputs, outputs)* of every action class is called by the Enactor runtime environment or by other Actions. 
