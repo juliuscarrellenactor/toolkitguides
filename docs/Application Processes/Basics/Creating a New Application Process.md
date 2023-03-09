@@ -12,7 +12,7 @@ Selecting ***Next*** presents the **Process Settings** panel as shown below. In 
 ### **Packages Registration**
 Processes must be registered in the Packages.xml of Applications that use them. The new **Application Process** template created by the Wizard is automatically registered in the Packages file by the Wizard. However, Processes may also be manually registered by selecting them in the Project Explorer perspective and using the Right-mouse Meny Option Enactor>Register in Packages, which will create an xml Element in the Packages file of the form shown in the example below:
 
-```xml title="/src/components/HelloCodeTitle.js"
+```xml title="Packages.xml"
 
 <core:packageProcess>
 
@@ -26,7 +26,5 @@ Processes must be registered in the Packages.xml of Applications that use them. 
 
 
 ```
-
-![](./Images/Aspose.Words.10ebd019-ce92-4563-aab3-b8f98ca85dac.005.png)
 
 

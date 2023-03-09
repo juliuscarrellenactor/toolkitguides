@@ -50,7 +50,6 @@ We can make a simple application by using the Swing application wizard that come
 
 ![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.652cac3e-57f9-4efd-a8b5-b2c1f3333ce1.013.png)
 
-
 You should see the following screen. Key in an Application Name, for example “Test Swing Application”:
 
 ![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.652cac3e-57f9-4efd-a8b5-b2c1f3333ce1.014.png)

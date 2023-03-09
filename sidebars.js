@@ -51,15 +51,17 @@ const sidebars = {
       {
         type: 'category',
         label: 'Basics',
-        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/The Process Design Editor','Application Processes/Basics/Process Flow', 'Application Processes/Basics/Creating a New Application Process','Application Processes/Basics/ Create, Call and Deploy Application Processes', 'Application Processes/Basics/Data Mappings',  
+        items: ['Application Processes/Basics/What are Application Processes', 'Application Processes/Basics/The Process Design Editor', 'Application Processes/Basics/About Application Processes',
+        'Application Processes/Basics/Process Flow', 'Application Processes/Basics/Creating a New Application Process',
+        'Application Processes/Basics/ Create, Call and Deploy Application Processes','Application Processes/Basics/Application View' , 'Application Processes/Basics/Data Mappings', 'Application Processes/Basics/Properties',
         {type: 'category',
         label: 'Tools',
         items: ['Application Processes/Basics/Tools/The Refactor Tool']
-      },] },
+      }] },
       {
         type: 'category',
         label: 'Actions',
-        items: ['Application Processes/Basics/Actions'],
+        items: ['Application Processes/Actions/Actions', 'Application Processes/Actions/Call Processes'],
       }, 
 
       {
@@ -76,7 +78,14 @@ const sidebars = {
         type: 'category',
         label: 'Database',
         items: ['Application Processes/Entitites & Persistence/Loading and Saving Entities', 'Application Processes/Entitites & Persistence/Managing Database Transactions']
-      }
+      },
+
+      {
+        type: 'category',
+        label: 'Application Hooks',
+        items: ['Application Processes/Application Hooks/Application Hooks'],
+      }, 
+    
     ],
   },
   {

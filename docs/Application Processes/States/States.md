@@ -20,8 +20,7 @@ other is pressed then the UI generates either *OKPressed* or
 *CancelPressed* events. Execution continues depending on the event
 received:
 
-![A screenshot of a cell phone Description automatically generated](./Images/image2.png){width="5.75in"
-height="3.2395833333333335in"}
+![A screenshot of a cell phone Description automatically generated](./Images/image2.png)
 
 You will notice that there is also a state on the left of the diagram.
 This has a single event coming out of it called *StateEntered* and
@@ -36,8 +35,7 @@ special event type that is executed straight away without pausing.
 There are only a few types State, which can be seen in the tools
 palette:
 
-![A screenshot of a cell phone Description automaticallygenerated](./Images/image3.png){width="1.0520833333333333in"
-height="1.90625in"}
+![A screenshot of a cell phone Description automaticallygenerated](./Images/image3.png){}
 
 *State*
 
@@ -84,9 +82,6 @@ each exception type. Double clicking an error state will take you to the
 message resource containing the translatable message that will be used
 if the exception does not contain one.
 
-*\
-*
-
 *Iterator State and Looping States*
 
 These are convenient ways of looping and iterating over lists in a
@@ -116,8 +111,7 @@ available at process level then an error symbol displays.
 For example the input *Count* in the example below is flagged as a
 required input:
 
-![A screenshot of a cell phone Description automaticallygenerated](./Images/image4.png){width="4.5in"
-height="1.6354166666666667in"}
+![A screenshot of a cell phone Description automaticallygenerated](./Images/image4.png)
 
 *Outputs*
 
@@ -131,8 +125,7 @@ In the following example the *PopUpOKCancelMessage* state is left when
 the action ValidateInput has finished and the state *DisplayComplete* is
 entered:
 
-![A screenshot of a social media post Description automaticallygenerated](./Images/image5.png){width="5.760416666666667in"
-height="3.375in"}
+![A screenshot of a social media post Description automaticallygenerated](./Images/image5.png)
 
 *State Data*
 
@@ -159,8 +152,7 @@ mapped to from process level State Data variables or from the output of
 previous states. If the names or types of the variables do not match
 then an error is shown.
 
-![A screenshot of a cell phone Description automaticallygenerated](./Images/image6.png){width="5.46875in"
-height="3.4270833333333335in"}
+![A screenshot of a cell phone Description automaticallygenerated](./Images/image6.png)
 
 ## **Basic State Properties**
 
@@ -169,8 +161,7 @@ about it in the Eclipse Properties pane. If this is not displaying then
 on the main menu bar go to: *Window -- Show View -- Properties*. For
 example:
 
-![A screenshot of a cell phone Description automaticallygenerated](./Images/image7.png){width="5.75in"
-height="1.9479166666666667in"}
+![A screenshot of a cell phone Description automaticallygenerated](./Images/image7.png)
 
 Looking at the properties of a state there are some key values that
 explain how the system operates. The list below is the set that is
@@ -292,7 +283,7 @@ symbol then an error results.
 For example here is a state that displays an address and responds to an
 OK or Cancel event from the user interface:
 
-![A screenshot of a computer Description automaticallygenerated](./Images/image8.png){width="5 760416666666667in"height="5.0625in"}
+![A screenshot of a computer Description automaticallygenerated](./Images/image8.png)
 
 The following additional properties appear for prompt states:
 
@@ -409,7 +400,6 @@ straight to the design for that prompt.
 This is initially done by highlighting a state and using right-click:
 *Go To -- Association -- Edit Other Associations...*
 
-![A screenshot of a social media post Description automaticallygenerated](./Images/image9.png){width="3.65625in"height="2.75in"}
+![A screenshot of a social media post Description automaticallygenerated](./Images/image9.png)
 
 The most recently used association becomes the default.
-
