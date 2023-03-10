@@ -1,6 +1,17 @@
-﻿# Create, Call and Deploy Application Processes
-## **Introduction**
+﻿---
+sidebar_position: 1
+---
+# Create, Call and Deploy Application Processes
+## Introduction
 This document continues from “How to add Actions to Application Processes” and describes how to create new Application Processes and then how to call them and arrange for them to be deployed by the Enactor runtime.
+
+## What are Application Processes ?
+Application Processes are a visual representation of the classic execution flow diagrams that all designers and developers produce from time-to-time when thinking about how applications (and services) should operate and how the components of those applications should fit together. Behind the visual representation of Application Processes are XML files that determine the flow of execution between small code modules (micro-services) within the context of the different states of what is being executed.
+
+We created this visual representation and associated designer as an answer to the growing volume and complexity of “plumbing code” that we found ourselves producing as our software components became smaller and our applications (and services) became larger. We postulated that separating out the code-centric environment for component creation from the “plumbing” environment of code-connection and state transition would encourage re-use and lead to more understandable and robust solutions. No longer would large code bases be “big black boxes” – you would be able to visually look inside a complex application (or service) by looking at it diagram.
+
+The result is that Application Processes are the key building blocks of our solutions. They have proven themselves capable of delivering robust and extensible code in many environments such as classic PC and mobile applications, server transaction processing systems, device drivers, web sites, web services, embedded device applications and so on. They are a great tool for assembling large numbers of micro-services into complex applications and enterprise services.
+
 
 ## **Creating New Processes – Application Process Wizard**
 You can create a new Application Process either by using *File-New-Other…* in Eclipse or by selecting an existing process that is similar and copying it. 
@@ -21,7 +32,9 @@ If you are adding a process to an existing application then all of the resources
 
 After pressing Finish you should see a blank process with just a process symbol on the top left:
 
-![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.871f0dcd-9a6a-4e25-9d2f-8a9a2c3daccd.011.png)
+![A screenshot of a social media post
+
+Description automatically generated](Aspose.Words.871f0dcd-9a6a-4e25-9d2f-8a9a2c3daccd.011.png)
 
 All processes must have a first state. At Enactor we find it convenient if this is a type basic *State* which immediately moves onto the next stage by using a *StateEntered* event. This often allows easier reworking of mappings at a later stage of development of the process.
 
@@ -105,6 +118,8 @@ If you find that double clicking on a process or performing some action on a pro
 Press the *Configure Mapping* button, or go to the top menu bar and select *Eclipse-Preferences*  and then select *Processes* and press the *Add Mapping* button. The system identifies where resources are located by the first part of the identifier. In the example below we are telling the system that processes that have the first part of their ID as “HowTo” can be found in the project called “HowToGuides” and the folder where the processes are located is: *src/META\_INF/deployments/Process/How To*.
 
 ![A screenshot of a social media post Description automatically generated](./Images/Aspose.Words.871f0dcd-9a6a-4e25-9d2f-8a9a2c3daccd.022.png)
+
+
 
 You should end up with something like the following:
 

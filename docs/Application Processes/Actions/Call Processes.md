@@ -1,4 +1,4 @@
-﻿## Call Processes
+﻿# Call Processes
 
 A **Call Process** Action is an Action that initiates execution of a specified ***Application Process***. Using the *Call Process* Action in a Process is analogous to using subroutines in code. In the Enactor Process Editor context, it serves to improve readability of the design and allows the called Application Process to be exposed, separately available for use by other Processes within an Application.
 
