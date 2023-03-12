@@ -74,10 +74,16 @@ const sidebars = {
         label: 'Exceptions',
         items: ['Application Processes/Exceptions/How to Handle Exceptions in Processes'],
       }, 
+
       {
         type: 'category',
-        label: 'Database',
-        items: ['Application Processes/Entitites & Persistence/Loading and Saving Entities', 'Application Processes/Entitites & Persistence/Managing Database Transactions']
+        label: 'Entities & Persistence',
+        items: ['Application Processes/Entitites & Persistence/Entities', 'Application Processes/Entitites & Persistence/Creating Entity Definitions', 'Application Processes/Entitites & Persistence/Entity Related Library Actions','Application Processes/Entitites & Persistence/Entity Relationships and Persistence', {
+          type: 'category',
+          label: 'Database',
+          items: ['Application Processes/Entitites & Persistence/Managing Database Transactions', 'Application Processes/Entitites & Persistence/Loading and Saving Entities', 'Application Processes/Entitites & Persistence/Persistence of Enactor Entities']
+        },
+  ]
       },
 
       {
@@ -96,14 +102,15 @@ const sidebars = {
     items: [
       {
         type: 'category',
-        label: 'Background Services',
-        items: ['POS Development/Background Services/Background Services'], 
+        label: 'Fundamentals',
+        items: ['POS Development/Fundamentals/Message Resources'],
       },
       {
         type: 'category',
-        label: 'Actions',
-        items: ['Application Processes/States/States'],
+        label: 'Background Services',
+        items: ['POS Development/Background Services/Background Services'], 
       },
+      
     ],
   },
   {

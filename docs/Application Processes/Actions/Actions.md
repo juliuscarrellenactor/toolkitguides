@@ -1,6 +1,3 @@
----
-sidebar_position: 2
----
 # Actions
 ## **Introduction**
 
@@ -13,9 +10,7 @@ Action classes are instantiated when needed and are passed their inputs by the r
 ## **What is an Action?**
 Below is an example of a very simple application process. It shows a single Action, the green symbol in the middle, which takes a single input, called *InputValue*, and produces two outcomes *Success* *and Fail*:
 
-
 ![A screenshot of a cell phone Description automatically generated](./Images/Aspose.Words.03c78bb4-7519-43d5-8d6e-82e66b25a30f.008.png)
-
 
 The brown symbol represents the process itself and shows *Inputs* and *Outputs* and also the *State Data* used inside of the process. Notice that this process has itself an input called *InputValue*.
 
