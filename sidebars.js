@@ -74,11 +74,21 @@ const sidebars = {
         label: 'Exceptions',
         items: ['Application Processes/Exceptions/How to Handle Exceptions in Processes'],
       }, 
+      
+      {
+        type: 'category',
+        label: 'Expression Language',
+        collapsible: true,
+        collapsed: false,
+        items: [
+          'Application Processes/Expression Language/Expression Language'],
+      }
+      ,
 
       {
         type: 'category',
         label: 'Entities & Persistence',
-        items: ['Application Processes/Entitites & Persistence/Entities', 'Application Processes/Entitites & Persistence/Creating Entity Definitions', 'Application Processes/Entitites & Persistence/Entity Related Library Actions','Application Processes/Entitites & Persistence/Entity Relationships and Persistence', {
+        items: ['Application Processes/Entitites & Persistence/Entities', 'Application Processes/Entitites & Persistence/Creating Entity Definitions', 'Application Processes/Entitites & Persistence/Entity Related Library Actions','Application Processes/Entitites & Persistence/Entity Relationships and Persistence', 'Application Processes/Entitites & Persistence/Listing Entities', {
           type: 'category',
           label: 'Database',
           items: ['Application Processes/Entitites & Persistence/Managing Database Transactions', 'Application Processes/Entitites & Persistence/Loading and Saving Entities', 'Application Processes/Entitites & Persistence/Persistence of Enactor Entities']
@@ -131,6 +141,7 @@ const sidebars = {
       },
     ],
   },
+
 
   {
     type: 'category',
