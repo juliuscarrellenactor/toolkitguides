@@ -143,20 +143,30 @@ The full list of available functions is listed in Appendix 1 – Enactor Functio
 
 Expression language supports most of the standard Java operators, allowing you to perform logical conditions or perform arithmetic within the expression. The full list of operators supported within EL is shown below:
 
-
-![Graphical user interface, application, Word Description automatically generated](./Images/Expression Table.png)
+| **Operator** | **Purpose**        | **Usage**          |
+|--------------|--------------------|--------------------|
+| +            | Numeric Addition   | a+b                |
+| -            | Subtraction        | a-b                |
+| *            | Multiplication     | a*b                |
+| / div        | Division           | a/b    a div b     |
+| %    mod     | Modulus            | a%b    a mod b     |
+| !            | Logical Not        | !a                 |
+| \|\|    or   | Logocal Or         | a \|\| b    a or b |
+| &&    and    | Logocal And        | a && b    a and b  |
+| ==    eq     | Logical Equality   | a == b    a eq b   |
+| !=    ne     | Logical Inequality | a != b    a ne b   |
 
 Important things to note:
 
 #### *The addition operator (+) cannot be used to concatenate a string. For that use the* concat(string1,string2) *function, or append two wrapped expressions (see* 
 
-<!-- - Wrapping Expressions)
+- Wrapping Expressions)
 - The equality and inequality operators will use the *.equals* method if the operands are not primitives.
 - The less-than, less-than-or-equal, greater-than and greater-than-or-equals will use the Comparable interface if the operands are not primitives. 
   - If only one side of the operator implements Comparable, EL will call the method on that side, and modify the result as if the operator was the inverse. For example a > b would become b < a.
   - If neither side implements the Comparable interface, an exception will be thrown.
 - If the left-hand side or the right hand side of a logical operator, or if the ‘if’ part of the ternary operator is null, a *NullPointerException* will be thrown.
-- Use the normal rounded brackets ‘(‘ and ‘)’ to override operator precedence if required. -->
+- Use the normal rounded brackets ‘(‘ and ‘)’ to override operator precedence if required.
 
 #### *Wrapping Expressions*
 
@@ -190,6 +200,8 @@ EL supports a concept known as “type coercion”. This is used in cases where 
 
 Where *intProperty* is defined as the following properties on the *someObject* class:
 
+``` java title="someObject.class"
+
 *public int getIntProperty() {*
 
 `	`*...*
@@ -202,6 +214,8 @@ Where *intProperty* is defined as the following properties on the *someObject* c
 `	`*...*
 
 *}*
+
+```
 
 If you attempt to set a String object using the expression, then EL will attempt to coerce the object into an *int* so it can invoke the setter method. 
 
